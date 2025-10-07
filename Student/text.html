@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap4/css/bootstrap.css">
+    <link rel="stylesheet" href="../uploads/">
+    <title>Admin</title>
+</head>
+<body class="" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-top: 75px;" >
+    /* .profile-img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+         margin-top: -75px; 
+    } */
+<img src="../uploads/" alt="">
+   <ul>
+    <li>
+        <a class="dropdown-item btn " href="#" id="viewProfile" >
+            <!-- <button type="button" class="btn btn-primary" id="viewProfile"> -->
+            <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                Profile
+            </a>
+    </li>
+   </ul>
+        
+    <a href="../Counselor/history.php"></a>
+
+
+
+<script src="./js/sweetalert.min.js"></script>
+<script src="./vendor/jquery/jquery.js"></script>
+<link rel="stylesheet" href="./uplaods/">
+
+<script>
+    $(document).ready(function(){
+    $("#viewProfile").click(function(e){
+        
+        console.log('pro');
+        $.ajax({
+            url: 'profile.php',
+            type: 'GET',
+            dataType: 'json',
+            success: function(row){
+                var html = '';
+                html += '<p><strong>Username:</strong> ' + row.username + '</p>';
+                html += '<p><strong>Email:</strong> ' + row.email + '</p>';
+                html += '<p><strong>Full Name:</strong> ' + row.full_name + '</p>';
+                html += '<p><strong>Full Name:</strong> ' + row.Phone + '</p>';
+                
+                $("#profileBody").html(html);
+                $("#profileModal").modal('show');
+            }
+        });
+    });
+});
+</script>
+
+
+
+<div class="col-md-6">
+    <select class="form-control" name="roomNum" placeholder="Room Number">
+      <?php
+        for ($i = 1; $i <= 30; $i++) {
+          echo "<option value='$i'>$i</option>";
+        }
+      ?>
+    </select>
+  </div>
+
+  $roomNum = clean($_POST['roomNum']);
+    
+    <?php   
+        include(');
+    ?>
+
+   <img src="/User/images/P.jpg" alt="">
+
+    <img src="../uplaods/" alt="Image1" style="width:100%;">
+    <img src="../path_to_your_image_folder/<?php echo $row['droomImages1']; ?>" alt="Image1" style="width:100%;">
+
+
+    <?php echo $row['dphoto']; ?>
+    $targetFile = $targetDir . $filename;
+</body>
+</html>

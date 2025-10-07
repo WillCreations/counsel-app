@@ -1,0 +1,28 @@
+.logout{
+    position: absolute;
+    left: 0;
+    width: 2px;
+    top: 600px;
+    /* color: var(--red);
+    background-color: var(--red); */
+}
+
+
+        .jumbotron
+            {
+                max-width: 375px;
+                padding: 15px;
+                margin: 0 auto;
+                color: #1a1a1a;
+                margin-top: 200px;
+            } 
+
+          
+            /* .profile-img {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                object-fit: cover;
+                 margin-top: -75px; 
+            } */
+       
