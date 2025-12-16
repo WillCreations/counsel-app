@@ -14,6 +14,7 @@
     { "src": "/photos/(.*)", "dest": "/photos/$1" },
     { "src": "/bootstrap4/(.*)", "dest": "/bootstrap4/$1" },
     { "src": "/sweetalert-master/(.*)", "dest": "/sweetalert-master/$1" },
+    { "src": "/config/(.*)", "dest": "/config/$1" },
     { "src": "/(.*)", "dest": "/index.php" }
   ]
 }
