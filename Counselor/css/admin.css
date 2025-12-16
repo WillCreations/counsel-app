@@ -1,3 +1,4 @@
+
 .logout{
     position: absolute;
     left: 0;
@@ -8,14 +9,20 @@
 }
 
 
-        .jumbotron
-            {
-                max-width: 375px;
-                padding: 15px;
-                margin: 0 auto;
-                color: #1a1a1a;
-                margin-top: 200px;
-            } 
+.logo {
+    text-decoration: none;
+    font-weight: 800;
+}
+
+
+.jumbotron
+    {
+        max-width: 375px;
+        padding: 15px;
+        margin: 0 auto;
+        color: #1a1a1a;
+        margin-top: 200px;
+    } 
 
           
             /* .profile-img {

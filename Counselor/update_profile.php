@@ -19,10 +19,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     // Update the database
-    $sql = "UPDATE counselor SET dfname='$fullname', duname='$username', dphone='$phone', demail='$email' WHERE userid='$userid'";
-    
-    if ($conn->query($sql) === TRUE) {
-        // header("Location: profile.php");
+    $query = "UPDATE counselor SET dfname= ?, duname= ?, dphone= ?, demail= ? WHERE userid= ?";
+    $stmt = $conn->prepare($query);
+    $result = $stmt->execute([$fullname, $username, $phone, $email, $userid]);
+    if ($result === TRUE) {
+         header("Location: profile.php");
         echo "Update successfully!";
     } else {
         echo "Oops! try again later";

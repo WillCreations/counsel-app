@@ -144,22 +144,32 @@ session_start();
                             </thead>
                             <tbody>
                             <?php
+                             try{
+
                              
-                                $sql = formQuery("SELECT * FROM student ORDER BY id DESC");
-                                if($sql->num_rows>0){ $num = 1;
-                                while($row=$sql->fetch_assoc()){
+                                $query = "SELECT * FROM student ORDER BY id DESC";
+                                $stmt = $conn->prepare($query);
+                                $stmt->execute();
+                                $students = $stmt->fetchALL(PDO::FETCH_ASSOC);
+                                if(count($students) > 0){ $num = 1;
+                                foreach($students as $row){
                                   
                             ?>
                                     <tr>
-                                    <td><?php echo ($row['id']) ?></td>
-                                    <td><?php echo ucfirst($row['dfname']) ?></td>
-                                    <td><?php echo ($row['dgrade']) ?></td>
-                                    <td><?php echo ($row['dsubject']) ?></td>
-                                    <td><?php echo ($row['dscore']) ?></td>
-                                        </tr>
+                                    <td><?php echo htmlspecialchars($row['id']); ?></td>
+                                    <td><?php echo htmlspecialchars($row['dfname']); ?></td>
+                                    <td><?php echo htmlspecialchars($row['dgrade']); ?></td>
+                                    <td><?php echo htmlspecialchars($row['dsubject']); ?></td>
+                                    <td><?php echo htmlspecialchars($row['dscore']); ?></td>
+                                    </tr>
                                 
-                            </tbody>
-                            <?php } } ?>
+                                    <?php 
+                                    } } 
+                                } catch (PDOException $e) {
+                                    echo "Error: " . $e->getMessage();
+                                }
+                                    ?>
+                                </tbody>
                         </table>
                     </div>
                 </div>
@@ -188,8 +198,8 @@ session_start();
                     <!-- Content Row -->
                    
             
-    </di>
- </div>
+    </div>
+                            </div>
         
 
 
@@ -197,44 +207,65 @@ session_start();
         include('./inc/script.php'); 
         include('./inc/footer.php'); 
     ?>
+    <?php
+    // Prepare real data for charts: distribution of students by subject
+    try {
+
+        $subStmt = $conn->prepare("SELECT grade_subject, score  FROM grades WHERE student_id = 3 ");
+        $subStmt->execute();
+        $subRows = $subStmt->fetchAll(PDO::FETCH_ASSOC);
+      
+        $subjectLabels = array_map(function($r){ return $r['grade_subject'] ?: 'Unknown'; }, $subRows);
+        $subjectValues = array_map(function($r){ return (int)$r['score']; }, $subRows);
+    } catch (Exception $e) {
+        $subjectLabels = ['No data'];
+        $subjectValues = [0];
+    }
+    ?>
+
     <script>
-   var data = {
-        labels: ["Science", "Arts", "Sports"],
-        datasets: [{
-            data: [55, 30, 15], // Example data, replace with your data
-            backgroundColor: ['#4e73df', '#1cc88a', '#36b9cc'],
-            hoverBackgroundColor: ['#2e59d9', '#17a673', '#2c9faf'],
-            hoverBorderColor: "rgba(234, 236, 244, 1)"
-        }]
-    };
+    (function(){
+        // Data injected from PHP
+        const subjectLabels = <?php echo json_encode($subjectLabels, JSON_HEX_TAG|JSON_HEX_APOS|JSON_HEX_QUOT); ?>;
+        const subjectValues = <?php echo json_encode($subjectValues); ?>;
 
-    // Configuration options
-    var options = {
-        maintainAspectRatio: false,
-        tooltips: {
-            backgroundColor: "rgb(255,255,255)",
-            bodyFontColor: "#858796",
-            borderColor: '#dddfeb',
-            borderWidth: 1,
-            xPadding: 15,
-            yPadding: 15,
-            displayColors: false,
-            caretPadding: 10,
-        },
-        legend: {
-            display: true,
-            position: 'bottom',
-        },
-        cutoutPercentage: 0,
-    };
+        // Defensive: make sure canvas exists
+        const el = document.getElementById('myPieChart');
+        if (!el || !el.getContext) return;
 
-    // Create the pie chart
-    window.onload = function() {
-        var ctx = document.getElementById("myPieChart").getContext('2d');
-        var myPieChart = new Chart(ctx, {
-            type: 'pie',
-            data: data,
-            options: options
-        });
-    };
-</script>
+        // Generate a palette (repeat if needed)
+        const palette = ['#4e73df', '#1cc88a', '#36b9cc', '#f6c23e', '#e74a3b', '#858796', '#5a5c69', '#fd7e14'];
+        const backgroundColor = subjectLabels.map((_, i) => palette[i % palette.length]);
+        const hoverBg = backgroundColor.map(c => c);
+
+        const data = {
+            labels: subjectLabels,
+            datasets: [{
+                data: subjectValues,
+                backgroundColor: backgroundColor,
+                hoverBackgroundColor: hoverBg,
+                hoverBorderColor: 'rgba(234, 236, 244, 1)'
+            }]
+        };
+
+        const options = {
+            maintainAspectRatio: false,
+            tooltips: {
+                backgroundColor: 'rgb(255,255,255)',
+                bodyFontColor: '#858796',
+                borderColor: '#dddfeb',
+                borderWidth: 1,
+                xPadding: 15,
+                yPadding: 15,
+                displayColors: false,
+                caretPadding: 10
+            },
+            legend: { display: true, position: 'bottom' },
+            cutoutPercentage: 0
+        };
+
+        // render chart
+        const ctx = el.getContext('2d');
+        new Chart(ctx, { type: 'pie', data: data, options: options });
+    })();
+    </script>

@@ -1,0 +1,245 @@
+
+Error: [8] Undefined variable: _SESSION - C:\MAMP\htdocs\Career-guidance-project\Student\manage-process.php:9
+Error: [8] Trying to access array offset on value of type null - C:\MAMP\htdocs\Career-guidance-project\Student\manage-process.php:9
+Error: [8] Undefined variable: _SESSION - C:\MAMP\htdocs\Career-guidance-project\Student\manage-process.php:9
+Error: [8] Trying to access array offset on value of type null - C:\MAMP\htdocs\Career-guidance-project\Student\manage-process.php:9
+Error: [8] Undefined variable: _SESSION - C:\MAMP\htdocs\Career-guidance-project\Student\manage-process.php:9
+Error: [8] Trying to access array offset on value of type null - C:\MAMP\htdocs\Career-guidance-project\Student\manage-process.php:9
+Error: [8] Undefined variable: _SESSION - C:\MAMP\htdocs\Career-guidance-project\Student\manage-process.php:11
+Error: [8] Trying to access array offset on value of type null - C:\MAMP\htdocs\Career-guidance-project\Student\manage-process.php:11
+Error: [8] Undefined property: PDOStatement::$num_rows - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:99
+Error: [8] Undefined property: PDOStatement::$num_rows - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:99
+Error: [8] Trying to access array offset on value of type bool - C:\MAMP\htdocs\Career-guidance-project\Student\view_upcoming.php:83
+Error: [8] Undefined index: status - C:\MAMP\htdocs\Career-guidance-project\Student\view_upcoming.php:84
+Error: [8] Trying to access array offset on value of type bool - C:\MAMP\htdocs\Career-guidance-project\Student\view_upcoming.php:83
+Error: [8] Undefined index: status - C:\MAMP\htdocs\Career-guidance-project\Student\view_upcoming.php:84
+Error: [8] Trying to access array offset on value of type bool - C:\MAMP\htdocs\Career-guidance-project\Student\view_upcoming.php:83
+Error: [8] Undefined index: status - C:\MAMP\htdocs\Career-guidance-project\Student\view_upcoming.php:84
+Error: [8] Trying to access array offset on value of type bool - C:\MAMP\htdocs\Career-guidance-project\Student\view_upcoming.php:83
+Error: [8] Undefined index: status - C:\MAMP\htdocs\Career-guidance-project\Student\view_upcoming.php:84
+Error: [8] Trying to access array offset on value of type bool - C:\MAMP\htdocs\Career-guidance-project\Student\view_upcoming.php:83
+Error: [8] Undefined index: status - C:\MAMP\htdocs\Career-guidance-project\Student\view_upcoming.php:84
+Error: [8] Undefined index: start_Date - C:\MAMP\htdocs\Career-guidance-project\Student\monitor_goals.php:102
+Error: [8] Undefined index: end_Date - C:\MAMP\htdocs\Career-guidance-project\Student\monitor_goals.php:103
+Error: [8] Undefined index: start_Date - C:\MAMP\htdocs\Career-guidance-project\Student\monitor_goals.php:102
+Error: [8] Undefined index: end_Date - C:\MAMP\htdocs\Career-guidance-project\Student\monitor_goals.php:103
+Error: [8] Undefined index: start_Date - C:\MAMP\htdocs\Career-guidance-project\Student\monitor_goals.php:102
+Error: [8] Undefined index: end_Date - C:\MAMP\htdocs\Career-guidance-project\Student\monitor_goals.php:103
+Error: [8] Undefined index: start_Date - C:\MAMP\htdocs\Career-guidance-project\Student\monitor_goals.php:102
+Error: [8] Undefined index: end_Date - C:\MAMP\htdocs\Career-guidance-project\Student\monitor_goals.php:103
+Error: [8] Undefined index: start_Date - C:\MAMP\htdocs\Career-guidance-project\Student\monitor_goals.php:102
+Error: [8] Undefined index: end_Date - C:\MAMP\htdocs\Career-guidance-project\Student\monitor_goals.php:103
+Error: [8] Undefined index: dfname - C:\MAMP\htdocs\Career-guidance-project\Student\monitor_goals.php:147
+Error: [8] Undefined index: duname - C:\MAMP\htdocs\Career-guidance-project\Student\monitor_goals.php:151
+Error: [8] Undefined index: dphone - C:\MAMP\htdocs\Career-guidance-project\Student\monitor_goals.php:155
+Error: [8] Undefined index: demail - C:\MAMP\htdocs\Career-guidance-project\Student\monitor_goals.php:159
+Error: [8] Undefined index: start_date - C:\MAMP\htdocs\Career-guidance-project\Student\monitor_goals.php:103
+Error: [8] Undefined index: start_date - C:\MAMP\htdocs\Career-guidance-project\Student\monitor_goals.php:120
+Error: [8] Undefined index: start_date - C:\MAMP\htdocs\Career-guidance-project\Student\monitor_goals.php:103
+Error: [8] Undefined index: start_date - C:\MAMP\htdocs\Career-guidance-project\Student\monitor_goals.php:120
+Error: [8] Undefined variable: startDate - C:\MAMP\htdocs\Career-guidance-project\Student\update_goal.php:51
+Error: [8] Undefined index: start_date - C:\MAMP\htdocs\Career-guidance-project\Student\monitor_goals.php:103
+Error: [8] Undefined index: start_date - C:\MAMP\htdocs\Career-guidance-project\Student\monitor_goals.php:120
+Error: [8] Undefined index: start_date - C:\MAMP\htdocs\Career-guidance-project\Student\monitor_goals.php:103
+Error: [8] Undefined index: start_date - C:\MAMP\htdocs\Career-guidance-project\Student\monitor_goals.php:120
+Error: [8] Undefined variable: startDate - C:\MAMP\htdocs\Career-guidance-project\Student\update_goal.php:51
+Error: [8] Undefined variable: startDate - C:\MAMP\htdocs\Career-guidance-project\Student\update_goal.php:51
+Error: [8] Undefined variable: startDate - C:\MAMP\htdocs\Career-guidance-project\Student\update_goal.php:51
+Error: [8] Undefined variable: startDate - C:\MAMP\htdocs\Career-guidance-project\Student\update_goal.php:51
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Student\inc\topbar.php:37
+Error: [8] Undefined index: records - C:\MAMP\htdocs\Career-guidance-project\Student\records.php:113
+Error: [2] count(): Parameter must be an array or an object that implements Countable - C:\MAMP\htdocs\Career-guidance-project\Student\records.php:129
+Error: [8] Undefined variable: score - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:47
+Error: [8] Undefined variable: score - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:54
+Error: [8] Undefined variable: score - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:54
+Error: [8] Undefined variable: score - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:71
+Error: [8] Undefined variable: score - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:110
+Error: [8] Undefined variable: score - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:47
+Error: [8] Undefined variable: score - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:54
+Error: [8] Undefined variable: score - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:54
+Error: [8] Undefined variable: score - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:71
+Error: [8] Undefined variable: score - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:110
+Error: [8] Undefined variable: score - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:47
+Error: [8] Undefined variable: score - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:54
+Error: [8] Undefined variable: score - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:54
+Error: [8] Undefined variable: score - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:71
+Error: [8] Undefined variable: score - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:110
+Error: [8] Trying to access array offset on value of type bool - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:76
+Error: [8] Trying to access array offset on value of type bool - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:76
+Error: [8] Undefined index: records - C:\MAMP\htdocs\Career-guidance-project\Student\records.php:113
+Error: [2] count(): Parameter must be an array or an object that implements Countable - C:\MAMP\htdocs\Career-guidance-project\Student\records.php:129
+Error: [8] Undefined index: records - C:\MAMP\htdocs\Career-guidance-project\Student\records.php:113
+Error: [2] count(): Parameter must be an array or an object that implements Countable - C:\MAMP\htdocs\Career-guidance-project\Student\records.php:129
+Error: [8] Undefined index: records - C:\MAMP\htdocs\Career-guidance-project\Student\records.php:113
+Error: [2] count(): Parameter must be an array or an object that implements Countable - C:\MAMP\htdocs\Career-guidance-project\Student\records.php:129
+Error: [8] Undefined index: records - C:\MAMP\htdocs\Career-guidance-project\Student\records.php:113
+Error: [2] count(): Parameter must be an array or an object that implements Countable - C:\MAMP\htdocs\Career-guidance-project\Student\records.php:129
+Error: [8] Trying to access array offset on value of type bool - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:76
+Error: [8] Undefined index: records - C:\MAMP\htdocs\Career-guidance-project\Student\records.php:113
+Error: [2] count(): Parameter must be an array or an object that implements Countable - C:\MAMP\htdocs\Career-guidance-project\Student\records.php:129
+Error: [8] Trying to access array offset on value of type bool - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:76
+Error: [8] Trying to access array offset on value of type bool - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:76
+Error: [8] Trying to access array offset on value of type bool - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:76
+Error: [8] Trying to access array offset on value of type bool - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:76
+Error: [8] Trying to access array offset on value of type bool - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:76
+Error: [8] Undefined index: records - C:\MAMP\htdocs\Career-guidance-project\Student\records.php:113
+Error: [2] count(): Parameter must be an array or an object that implements Countable - C:\MAMP\htdocs\Career-guidance-project\Student\records.php:129
+Error: [8] Trying to access array offset on value of type bool - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:76
+Error: [8] Undefined index: records - C:\MAMP\htdocs\Career-guidance-project\Student\records.php:113
+Error: [2] count(): Parameter must be an array or an object that implements Countable - C:\MAMP\htdocs\Career-guidance-project\Student\records.php:129
+Error: [8] Undefined index: records - C:\MAMP\htdocs\Career-guidance-project\Student\records.php:122
+Error: [2] count(): Parameter must be an array or an object that implements Countable - C:\MAMP\htdocs\Career-guidance-project\Student\records.php:138
+Error: [8] Undefined variable: year - C:\MAMP\htdocs\Career-guidance-project\Student\get_record.php:33
+Error: [8] Undefined variable: term - C:\MAMP\htdocs\Career-guidance-project\Student\get_record.php:33
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:158
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:158
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:158
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:158
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:158
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:158
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:158
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:158
+Error: [8] Undefined index: records - C:\MAMP\htdocs\Career-guidance-project\Student\records.php:126
+Error: [2] count(): Parameter must be an array or an object that implements Countable - C:\MAMP\htdocs\Career-guidance-project\Student\records.php:142
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:158
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:158
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:158
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:158
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:158
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:158
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:158
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:158
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:158
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:158
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:158
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:158
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:158
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:158
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:158
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:158
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:159
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:159
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:159
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:159
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:159
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:159
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:159
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:159
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:159
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:159
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:159
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:159
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:159
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:159
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:159
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:159
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:159
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:159
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:159
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:159
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:159
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:159
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:159
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:159
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:160
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:160
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:160
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:160
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:160
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:160
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:160
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:160
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:160
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:160
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:160
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:160
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:160
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:160
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:160
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:160
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:160
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:160
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:160
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:160
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:160
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:160
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:160
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\manage_appt.php:160
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\view_upcoming.php:91
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\view_upcoming.php:91
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\view_upcoming.php:91
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\view_upcoming.php:91
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\view_upcoming.php:91
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\view_upcoming.php:91
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\view_upcoming.php:91
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\view_upcoming.php:91
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\view_upcoming.php:91
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\view_upcoming.php:91
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\view_upcoming.php:91
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\view_upcoming.php:91
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\view_upcoming.php:91
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\view_upcoming.php:91
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\view_upcoming.php:91
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\view_upcoming.php:91
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\view_upcoming.php:91
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\view_upcoming.php:91
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\view_upcoming.php:91
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\view_upcoming.php:91
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\view_upcoming.php:91
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\view_upcoming.php:91
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\view_upcoming.php:91
+Error: [8] Undefined variable: studentName - C:\MAMP\htdocs\Career-guidance-project\Student\view_upcoming.php:91
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Student\counselor_profile.php:77
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Student\counselor_profile.php:77
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Student\counselor_profile.php:77
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Student\counselor_profile.php:77
+Error: [8] Undefined index: records - C:\MAMP\htdocs\Career-guidance-project\Student\records.php:126
+Error: [2] count(): Parameter must be an array or an object that implements Countable - C:\MAMP\htdocs\Career-guidance-project\Student\records.php:142
+Error: [8] Undefined index: records - C:\MAMP\htdocs\Career-guidance-project\Student\records.php:126
+Error: [2] count(): Parameter must be an array or an object that implements Countable - C:\MAMP\htdocs\Career-guidance-project\Student\records.php:142
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Student\counselor_profile.php:77
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Student\counselor_profile.php:77
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Student\counselor_profile.php:77
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Student\counselor_profile.php:77
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Student\counselor_profile.php:77
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Student\counselor_profile.php:77
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Student\counselor_profile.php:77
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Student\counselor_profile.php:77
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Student\monitor_goals.php:6
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Student\inc\topbar.php:37
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Student\monitor_goals.php:87
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Student\monitor_goals.php:6
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Student\inc\topbar.php:37
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Student\monitor_goals.php:87
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Student\inc\topbar.php:37
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Student\track_progress.php:34
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Student\inc\topbar.php:37
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Student\student.php:50
+Error: [8] Trying to access array offset on value of type bool - C:\MAMP\htdocs\Career-guidance-project\Student\student.php:52
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Student\student.php:84
+Error: [8] Trying to access array offset on value of type bool - C:\MAMP\htdocs\Career-guidance-project\Student\student.php:86
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Student\student.php:117
+Error: [8] Trying to access array offset on value of type bool - C:\MAMP\htdocs\Career-guidance-project\Student\student.php:119
+Error: [8] Undefined index: records - C:\MAMP\htdocs\Career-guidance-project\Student\records.php:126
+Error: [2] count(): Parameter must be an array or an object that implements Countable - C:\MAMP\htdocs\Career-guidance-project\Student\records.php:142
+Error: [8] Trying to access array offset on value of type bool - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:76
+Error: [8] Undefined variable: score - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:47
+Error: [8] Undefined variable: score - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:47
+Error: [8] Undefined variable: score - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:47
+Error: [8] Undefined variable: score - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:50
+Error: [8] Undefined variable: score - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:50
+Error: [8] Undefined variable: score - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:49
+Error: [8] Undefined variable: subject - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:150
+Error: [8] Undefined variable: score - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:150
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Student\counselor_profile.php:77
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Student\counselor_profile.php:77
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Student\counselor_profile.php:77
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Student\counselor_profile.php:77
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Student\counselor_profile.php:77
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Student\counselor_profile.php:77
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Student\counselor_profile.php:77
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Student\counselor_profile.php:77
+Error: [8] Undefined variable: subject - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:150
+Error: [8] Undefined variable: score - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:150
+Error: [8] Undefined variable: term - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:150
+Error: [8] Undefined variable: year - C:\MAMP\htdocs\Career-guidance-project\Student\record_process.php:150

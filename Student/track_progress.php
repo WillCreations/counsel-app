@@ -22,16 +22,29 @@ include('./inc/navbar.php');
             <!-- Page Heading -->
             <div class="d-sm-flex align-items-center justify-content-between mb-4">
                 <h1 class="h3 mb-0 text-gray-800">Track progress on the career goals set</h1>
+                <div>
+                    <a href="monitor_goals.php"> <button class="btn-primary rounded mx-1 px-3 py-1" > Manage Goals </button></a> 
+                    <a href="student.php"> <button class="btn-primary rounded mx-1 px-3 py-1" > Back</button></a> 
+                </div>
             </div>
             
             <!-- Content Row -->
             <div class="row">
                 <?php
                     $userid = $_SESSION['userid'];
-                    $sql = formQuery("SELECT * FROM goals WHERE userid='$userid' ORDER BY id DESC");
-                    if($sql->num_rows > 0) { 
-                        $num = 1;
-                        while($row = $sql->fetch_assoc()) {
+
+                                        if($userid){
+
+                                        $query = "SELECT id FROM student WHERE userid= ? LIMIT 1";
+                                        $stmt = $conn->prepare($query);
+                                        $stmt->execute([$userid]);
+                                        $srow = $stmt->fetch(PDO::FETCH_ASSOC);
+                                        $query = "SELECT * FROM goals WHERE student_id = ? ORDER BY id DESC";
+                                        $stmt = $conn->prepare($query);
+                                        $stmt->execute([$srow['id']]);
+                                        $goals = $stmt->fetchAll(PDO::FETCH_ASSOC);
+                                        if(count($goals) > 0) { 
+                                            foreach($goals as $row) {
                 ?>
                 <div class="col-xl-6 col-md-6 mb-4">
                     <div class="card border-left-primary shadow h-100 py-2">
@@ -40,13 +53,13 @@ include('./inc/navbar.php');
                                 <div class="col mr-2">
                                     <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
                                         Career Goal</div>
-                                    <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo ucfirst($row['dgoal']) ?></div>
+                                    <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo htmlspecialchars($row['goal_title']); ?></div>
                                     <div class="progress mt-3">
                                         <div class="progress-bar" role="progressbar" 
-                                             style="width: <?php echo ($row['dprogress']) ?>%;" 
-                                             aria-valuenow="<?php echo ($row['dprogress']) ?>" 
+                                             style="width: <?php echo htmlspecialchars($row['progress']); ?>%;" 
+                                             aria-valuenow="<?php echo htmlspecialchars($row['progress']); ?>" 
                                              aria-valuemin="0" aria-valuemax="100">
-                                             <?php echo ($row['dprogress']) ?>%</div>
+                                             <?php echo htmlspecialchars($row['progress']); ?>%</div>
                                     </div>
                                 </div>
                                 <div class="col-auto">
@@ -58,7 +71,7 @@ include('./inc/navbar.php');
                 </div>
                 <?php 
                         } 
-                    } 
+                    } }
                 ?>
             </div>
             <!-- End of Content Row -->

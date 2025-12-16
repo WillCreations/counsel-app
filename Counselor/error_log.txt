@@ -1,0 +1,452 @@
+Error: [8] Undefined variable: gender - C:\MAMP\htdocs\Career-guidance-project\Counselor\signup_process.php:165
+Error: [8] Undefined variable: dob - C:\MAMP\htdocs\Career-guidance-project\Counselor\signup_process.php:165
+Error: [8] Undefined variable: grade - C:\MAMP\htdocs\Career-guidance-project\Counselor\signup_process.php:165
+Error: [8] Undefined variable: subject - C:\MAMP\htdocs\Career-guidance-project\Counselor\signup_process.php:165
+Error: [8] Undefined variable: score - C:\MAMP\htdocs\Career-guidance-project\Counselor\signup_process.php:165
+Error: [8] Undefined variable: career_asp - C:\MAMP\htdocs\Career-guidance-project\Counselor\signup_process.php:165
+Error: [8] Undefined property: PDOStatement::$num_rows - C:\MAMP\htdocs\Career-guidance-project\Counselor\login_process.php:15
+Error: [8] Undefined property: PDOStatement::$num_rows - C:\MAMP\htdocs\Career-guidance-project\Counselor\login_process.php:15
+Error: [8] Undefined variable: gender - C:\MAMP\htdocs\Career-guidance-project\Counselor\signup_process.php:165
+Error: [8] Undefined variable: dob - C:\MAMP\htdocs\Career-guidance-project\Counselor\signup_process.php:165
+Error: [8] Undefined variable: grade - C:\MAMP\htdocs\Career-guidance-project\Counselor\signup_process.php:165
+Error: [8] Undefined variable: subject - C:\MAMP\htdocs\Career-guidance-project\Counselor\signup_process.php:165
+Error: [8] Undefined variable: score - C:\MAMP\htdocs\Career-guidance-project\Counselor\signup_process.php:165
+Error: [8] Undefined variable: career_asp - C:\MAMP\htdocs\Career-guidance-project\Counselor\signup_process.php:165
+Error: [8] Undefined variable: gender - C:\MAMP\htdocs\Career-guidance-project\Counselor\signup_process.php:165
+Error: [8] Undefined variable: dob - C:\MAMP\htdocs\Career-guidance-project\Counselor\signup_process.php:165
+Error: [8] Undefined variable: grade - C:\MAMP\htdocs\Career-guidance-project\Counselor\signup_process.php:165
+Error: [8] Undefined variable: subject - C:\MAMP\htdocs\Career-guidance-project\Counselor\signup_process.php:165
+Error: [8] Undefined variable: score - C:\MAMP\htdocs\Career-guidance-project\Counselor\signup_process.php:165
+Error: [8] Undefined variable: career_asp - C:\MAMP\htdocs\Career-guidance-project\Counselor\signup_process.php:165
+Error: [8] Undefined property: PDOStatement::$num_rows - C:\MAMP\htdocs\Career-guidance-project\Counselor\student_profile.php:135
+Error: [8] Undefined property: PDOStatement::$num_rows - C:\MAMP\htdocs\Career-guidance-project\Counselor\schedule.php:79
+Error: [8] Undefined property: PDOStatement::$num_rows - C:\MAMP\htdocs\Career-guidance-project\Counselor\student_profile.php:135
+Error: [8] Undefined property: PDOStatement::$num_rows - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_performance.php:149
+Error: [8] Undefined property: PDOStatement::$num_rows - C:\MAMP\htdocs\Career-guidance-project\Counselor\student_profile.php:135
+Error: [8] Undefined property: PDOStatement::$num_rows - C:\MAMP\htdocs\Career-guidance-project\Counselor\profile.php:32
+Error: [8] Undefined property: PDOStatement::$num_rows - C:\MAMP\htdocs\Career-guidance-project\Counselor\student_profile.php:135
+Error: [8] Undefined property: PDOStatement::$num_rows - C:\MAMP\htdocs\Career-guidance-project\Counselor\schedule.php:79
+Error: [8] Undefined property: PDOStatement::$num_rows - C:\MAMP\htdocs\Career-guidance-project\Counselor\schedule.php:95
+Error: [8] Undefined property: PDOStatement::$num_rows - C:\MAMP\htdocs\Career-guidance-project\Counselor\schedule.php:100
+Error: [8] Undefined index: name - C:\MAMP\htdocs\Career-guidance-project\Counselor\schedule-process.php:5
+Error: [8] Undefined index: name - C:\MAMP\htdocs\Career-guidance-project\Counselor\schedule-process.php:5
+Error: [8] Undefined variable: _SESSION - C:\MAMP\htdocs\Career-guidance-project\Counselor\schedule-process.php:9
+Error: [8] Trying to access array offset on value of type null - C:\MAMP\htdocs\Career-guidance-project\Counselor\schedule-process.php:9
+Error: [8] Undefined property: PDOStatement::$num_rows - C:\MAMP\htdocs\Career-guidance-project\Counselor\schedule.php:100
+Error: [8] Undefined property: PDOStatement::$num_rows - C:\MAMP\htdocs\Career-guidance-project\Counselor\student_profile.php:135
+Error: [8] Undefined property: PDOStatement::$num_rows - C:\MAMP\htdocs\Career-guidance-project\Counselor\schedule.php:100
+Error: [8] Undefined property: PDOStatement::$num_rows - C:\MAMP\htdocs\Career-guidance-project\Counselor\schedule.php:100
+Error: [8] Undefined property: PDOStatement::$num_rows - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_performance.php:149
+Error: [8] Undefined property: PDOStatement::$num_rows - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_performance.php:149
+Error: [8] Undefined property: PDOStatement::$num_rows - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_performance.php:149
+Error: [8] Undefined property: PDOStatement::$num_rows - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_performance.php:149
+Error: [8] Undefined property: PDOStatement::$num_rows - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_performance.php:149
+Error: [8] Undefined property: PDOStatement::$num_rows - C:\MAMP\htdocs\Career-guidance-project\Counselor\student_profile.php:135
+Error: [8] Undefined property: PDOStatement::$num_rows - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_performance.php:149
+Error: [8] Undefined property: PDOStatement::$num_rows - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_performance.php:149
+Error: [8] Undefined property: PDOStatement::$num_rows - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_performance.php:149
+Error: [8] Undefined property: PDOStatement::$num_rows - C:\MAMP\htdocs\Career-guidance-project\Counselor\profile.php:32
+Error: [8] Undefined property: PDOStatement::$num_rows - C:\MAMP\htdocs\Career-guidance-project\Counselor\profile.php:32
+Error: [8] Undefined property: PDOStatement::$num_rows - C:\MAMP\htdocs\Career-guidance-project\Counselor\change-pass-process.php:12
+Error: [8] Undefined property: PDOStatement::$num_rows - C:\MAMP\htdocs\Career-guidance-project\Counselor\change-pass-process.php:12
+Error: [8] Undefined property: PDOStatement::$num_rows - C:\MAMP\htdocs\Career-guidance-project\Counselor\change-pass-process.php:16
+Error: [8] Undefined property: PDOStatement::$num_rows - C:\MAMP\htdocs\Career-guidance-project\Counselor\change-pass-process.php:16
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Counselor\change-pass-process.php:17
+Error: [8] Undefined variable: tatus - C:\MAMP\htdocs\Career-guidance-project\Counselor\schedule.php:139
+Error: [8] Undefined variable: tatus - C:\MAMP\htdocs\Career-guidance-project\Counselor\schedule.php:139
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Counselor\inc\topbar.php:37
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Counselor\inc\topbar.php:37
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Counselor\inc\topbar.php:37
+Error: [8] Undefined variable: student_id - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_performance.php:215
+Error: [8] Undefined variable: student_id - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_performance.php:215
+Error: [8] Undefined variable: student_id - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_performance.php:215
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Counselor\inc\topbar.php:37
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Counselor\inc\topbar.php:37
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Counselor\inc\topbar.php:37
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Counselor\inc\topbar.php:37
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Counselor\analyse.php:4
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Counselor\analyse.php:4
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Counselor\inc\topbar.php:37
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Counselor\inc\topbar.php:37
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Counselor\analyse.php:4
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Counselor\analyse.php:4
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Counselor\analyse.php:4
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Counselor\analyse.php:4
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Counselor\inc\topbar.php:37
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Counselor\analyse.php:4
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Counselor\analyse.php:4
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Counselor\inc\topbar.php:37
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Counselor\analyse.php:6
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Counselor\analyse.php:7
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Counselor\analyse.php:8
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Counselor\inc\topbar.php:37
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Counselor\schedule-process.php:10
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Counselor\schedule-process.php:10
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Counselor\inc\topbar.php:37
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Counselor\inc\topbar.php:37
+Error: [8] Undefined index: userid - C:\MAMP\htdocs\Career-guidance-project\Counselor\inc\topbar.php:37
+Error: [2] Cannot modify header information - headers already sent by (output started at C:\MAMP\htdocs\Career-guidance-project\Counselor\analyse.php:16) - C:\MAMP\htdocs\Career-guidance-project\Counselor\analyse.php:18
+Error: [2] Cannot modify header information - headers already sent by (output started at C:\MAMP\htdocs\Career-guidance-project\Counselor\analyse.php:16) - C:\MAMP\htdocs\Career-guidance-project\Counselor\analyse.php:18
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:27
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:27
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:27
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:27
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:27
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:27
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:27
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:27
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:28
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:28
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:28
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:28
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:28
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:28
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:28
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:28
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:27
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:27
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:27
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:27
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:27
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:27
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:27
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:27
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:28
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:28
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:28
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:28
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:28
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:28
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:28
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:28
+Error: [8] Array to string conversion - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:30
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:27
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:27
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:27
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:27
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:27
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:27
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:27
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:27
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:28
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:28
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:28
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:28
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:28
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:28
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:28
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:28
+Error: [8] Array to string conversion - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:30
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:28
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:28
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:28
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:28
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:28
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:28
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:28
+Error: [8] Trying to get property 'year' of non-object - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:28
+Error: [8] Array to string conversion - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:30
+Error: [8] Array to string conversion - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:37
+Error: [8] Array to string conversion - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:37
+Error: [8] Array to string conversion - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:37
+Error: [8] Array to string conversion - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:37
+Error: [8] Array to string conversion - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:37
+Error: [8] Array to string conversion - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:37
+Error: [8] Array to string conversion - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:37
+Error: [8] Array to string conversion - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:37
+Error: [8] Undefined index: student_id - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:33
+Error: [8] Undefined index: student_id - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:33
+Error: [8] Undefined index: student_id - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:27
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:77
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:77
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:77
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:77
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:77
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:77
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:77
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:77
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:77
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:77
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:77
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:77
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: counselor_USR-89d237a5-687a-41b1-be25-1df0b42a28e8_info - C:\MAMP\htdocs\Career-guidance-project\Counselor\profile.php:32
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:82
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:82
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:82
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:82
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:82
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:82
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:82
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:82
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:82
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: counselor_profile_view - C:\MAMP\htdocs\Career-guidance-project\Counselor\profile.php:32
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [2] json_decode() expects parameter 1 to be string, array given - C:\MAMP\htdocs\Career-guidance-project\Counselor\profile.php:33
+Error: [8] Trying to access array offset on value of type null - C:\MAMP\htdocs\Career-guidance-project\Counselor\profile.php:52
+Error: [8] Trying to access array offset on value of type null - C:\MAMP\htdocs\Career-guidance-project\Counselor\profile.php:56
+Error: [8] Trying to access array offset on value of type null - C:\MAMP\htdocs\Career-guidance-project\Counselor\profile.php:57
+Error: [8] Trying to access array offset on value of type null - C:\MAMP\htdocs\Career-guidance-project\Counselor\profile.php:58
+Error: [8] Trying to access array offset on value of type null - C:\MAMP\htdocs\Career-guidance-project\Counselor\profile.php:59
+Error: [8] Trying to access array offset on value of type null - C:\MAMP\htdocs\Career-guidance-project\Counselor\profile.php:60
+Error: [8] Trying to access array offset on value of type null - C:\MAMP\htdocs\Career-guidance-project\Counselor\profile.php:89
+Error: [8] Trying to access array offset on value of type null - C:\MAMP\htdocs\Career-guidance-project\Counselor\profile.php:93
+Error: [8] Trying to access array offset on value of type null - C:\MAMP\htdocs\Career-guidance-project\Counselor\profile.php:97
+Error: [8] Trying to access array offset on value of type null - C:\MAMP\htdocs\Career-guidance-project\Counselor\profile.php:101
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [2] json_decode() expects parameter 1 to be string, array given - C:\MAMP\htdocs\Career-guidance-project\Counselor\profile.php:33
+Error: [8] Trying to access array offset on value of type null - C:\MAMP\htdocs\Career-guidance-project\Counselor\profile.php:53
+Error: [8] Trying to access array offset on value of type null - C:\MAMP\htdocs\Career-guidance-project\Counselor\profile.php:57
+Error: [8] Trying to access array offset on value of type null - C:\MAMP\htdocs\Career-guidance-project\Counselor\profile.php:58
+Error: [8] Trying to access array offset on value of type null - C:\MAMP\htdocs\Career-guidance-project\Counselor\profile.php:59
+Error: [8] Trying to access array offset on value of type null - C:\MAMP\htdocs\Career-guidance-project\Counselor\profile.php:60
+Error: [8] Trying to access array offset on value of type null - C:\MAMP\htdocs\Career-guidance-project\Counselor\profile.php:61
+Error: [8] Trying to access array offset on value of type null - C:\MAMP\htdocs\Career-guidance-project\Counselor\profile.php:90
+Error: [8] Trying to access array offset on value of type null - C:\MAMP\htdocs\Career-guidance-project\Counselor\profile.php:94
+Error: [8] Trying to access array offset on value of type null - C:\MAMP\htdocs\Career-guidance-project\Counselor\profile.php:98
+Error: [8] Trying to access array offset on value of type null - C:\MAMP\htdocs\Career-guidance-project\Counselor\profile.php:102
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined variable: _SESSION - C:\MAMP\htdocs\Career-guidance-project\Counselor\process_counselor_profile.php:20
+Error: [8] Undefined variable: _SESSION - C:\MAMP\htdocs\Career-guidance-project\Counselor\process_counselor_profile.php:20
+Error: [8] Undefined variable: _SESSION - C:\MAMP\htdocs\Career-guidance-project\Counselor\process_counselor_profile.php:20
+Error: [8] Undefined variable: _SESSION - C:\MAMP\htdocs\Career-guidance-project\Counselor\process_counselor_profile.php:20
+Error: [8] Undefined variable: _SESSION - C:\MAMP\htdocs\Career-guidance-project\Counselor\process_counselor_profile.php:20
+Error: [8] Undefined variable: _SESSION - C:\MAMP\htdocs\Career-guidance-project\Counselor\process_counselor_profile.php:20
+Error: [8] Undefined variable: _SESSION - C:\MAMP\htdocs\Career-guidance-project\Counselor\process_counselor_profile.php:20
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined variable: _SESSION - C:\MAMP\htdocs\Career-guidance-project\Counselor\process_counselor_profile.php:18
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined variable: _SESSION - C:\MAMP\htdocs\Career-guidance-project\Counselor\process_counselor_profile.php:18
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined variable: _SESSION - C:\MAMP\htdocs\Career-guidance-project\Counselor\process_counselor_profile.php:18
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined variable: _SESSION - C:\MAMP\htdocs\Career-guidance-project\Counselor\process_counselor_profile.php:18
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:311
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:285
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:299
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:307
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:307
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:312
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:387
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:387
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:388
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:389
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:402
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:403
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:403
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:403
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:423
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:423
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:423
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:424
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:424
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:424
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:424
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:424
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:424
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:426
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:426
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:426
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:429
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:423
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:423
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:423
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:424
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:426
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:426
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:426
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:426
+Error: [8] Undefined variable: termCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: yearCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: termCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: yearCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: termCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: yearCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: termCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: yearCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:426
+Error: [8] Undefined variable: termCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: yearCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: termCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: yearCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: termCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: yearCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: termCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: yearCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:426
+Error: [8] Undefined variable: termCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: yearCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: termCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: yearCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: termCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: yearCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: termCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: yearCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:426
+Error: [8] Undefined variable: termCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: yearCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: termCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: yearCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: termCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: yearCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: termCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: yearCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: termCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: yearCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: termCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: yearCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: termCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: yearCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: termCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: yearCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:426
+Error: [8] Undefined variable: termCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: yearCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: termCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: yearCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: termCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: yearCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: termCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: yearCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: termCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: yearCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: termCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: yearCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: termCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: yearCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: termCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: yearCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:426
+Error: [8] Undefined variable: termCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: yearCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: termCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: yearCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: termCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: yearCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: termCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: yearCheck - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:76
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:426
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:426
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:426
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:426
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:426
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:426
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:426
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:426
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:426
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined index: student_name - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:21
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [8] Undefined index: dgender - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor_profile.php:81
+Error: [2] count(): Parameter must be an array or an object that implements Countable - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor.php:203
+Error: [2] count(): Parameter must be an array or an object that implements Countable - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor.php:203
+Error: [2] count(): Parameter must be an array or an object that implements Countable - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor.php:203
+Error: [2] count(): Parameter must be an array or an object that implements Countable - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor.php:203
+Error: [2] count(): Parameter must be an array or an object that implements Countable - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor.php:203
+Error: [2] count(): Parameter must be an array or an object that implements Countable - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor.php:203
+Error: [2] count(): Parameter must be an array or an object that implements Countable - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor.php:203
+Error: [2] count(): Parameter must be an array or an object that implements Countable - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor.php:203
+Error: [2] count(): Parameter must be an array or an object that implements Countable - C:\MAMP\htdocs\Career-guidance-project\Counselor\counselor.php:203
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439
+Error: [8] Undefined variable: candles - C:\MAMP\htdocs\Career-guidance-project\Counselor\stu_progress.php:439

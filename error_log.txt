@@ -1,0 +1,9 @@
+Error: [8] Undefined variable: undefinedVariable - C:\MAMP\htdocs\Career-guidance-project\config\config.php:22
+Error: [8] Undefined variable: undefinedVariable - C:\MAMP\htdocs\Career-guidance-project\config\config.php:22
+Error: [8] Undefined variable: undefinedVariable - C:\MAMP\htdocs\Career-guidance-project\config\config.php:22
+Error: [8] Undefined variable: undefinedVariable - C:\MAMP\htdocs\Career-guidance-project\config\config.php:22
+Error: [8] Undefined variable: undefinedVariable - C:\MAMP\htdocs\Career-guidance-project\config\config.php:23
+Error: [8] Undefined variable: undefinedVariable - C:\MAMP\htdocs\Career-guidance-project\config\config.php:22
+Error: [8] Undefined variable: undefinedVariable - C:\MAMP\htdocs\Career-guidance-project\config\config.php:23
+Error: [8] Undefined variable: undefinedVariable - C:\MAMP\htdocs\Career-guidance-project\config\config.php:22
+Error: [8] Undefined variable: undefinedVariable - C:\MAMP\htdocs\Career-guidance-project\config\config.php:23

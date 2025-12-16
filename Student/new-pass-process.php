@@ -6,13 +6,17 @@ require '../config/config.php';
     $userid = $_SESSION['userid'];
 
     if(isset($_POST['update'])) {
-        $pass = md5(clean($_POST['pass']));
-        $cpass = md5(clean($_POST['cpass']));
+        $pass = clean($_POST['pass']);
+        $cpass = clean($_POST['cpass']);
         
 
         // Update password if new passwords match
         if($pass === $cpass) {
-            formQuery("UPDATE counselor SET dpass='$pass' WHERE userid='$userid'");
+            $query = "UPDATE student SET dpass=? WHERE userid= ?";
+            $stmt = $conn->prepare($query);
+            $hashedPass = password_hash($pass, PASSWORD_DEFAULT);
+            $stmt->execute([$hashedPass, $userid]);
+            
             $_SESSION['error'] = "<p class='text-success'>Password changed successfully!</p>";
             unset($_SESSION['reset_userid']); 
         } else {

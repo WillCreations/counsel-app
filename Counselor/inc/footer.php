@@ -1,17 +1,16 @@
-
 <footer class="sticky-footer bg-white">
-        <div class="container my-auto">
-            <div class="copyright text-center my-auto">
-                <p class="mt-2">  &copy;  PRO TECH <?php echo date("Y"); ?> </p>
-            </div>
+    <div class="container my-auto">
+        <div class="copyright text-center my-auto">
+            <p class="mt-2"> &copy; PRO TECH <?php echo date("Y"); ?> </p>
         </div>
-</footer>
-            <!-- End of Footer -->
-
     </div>
-    <!-- End of Main Content -->
+</footer>
+<!-- End of Footer -->
 
-    <!-- <script>
+</div>
+<!-- End of Main Content -->
+
+<!-- <script>
     $(document).ready(function(){
     $("#viewProfile").click(function(e){
         e.preventDefault();

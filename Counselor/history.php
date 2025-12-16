@@ -48,44 +48,68 @@ include('./inc/navbar.php');
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <?php
-                                        $sql = formQuery("SELECT * FROM studentappointment ORDER BY id DESC");
+                                         <?php
 
-                                        if ($sql) {
-                                            if ($sql->num_rows > 0) { 
-                                                $num = 1;
-                                                while ($row = $sql->fetch_assoc()) {
+                                         $userid = $_SESSION['userid'] ?? null;
+                                        if (!$userid) {
+                                            echo "<tr><td colspan='6' class='text-center'>Please log in to view appointments.</td></tr>";
+                                        } else {
+                                            $sstmt = $conn->prepare('SELECT id FROM counselor WHERE userid = ? LIMIT 1');
+                                            $sstmt->execute([$userid]);
+                                            $srow = $sstmt->fetch(PDO::FETCH_ASSOC);
+                                            $counselor_id = $srow['id'] ?? null;
+        
+                                            if ($counselor_id) {
+                                                $query = "SELECT a.* , s.dfname AS student_name FROM appointment a LEFT JOIN student s ON a.student_id = s.id WHERE a.counselor_id = ? ORDER BY a.appointment_date DESC";
+                                                $stmt = $conn->prepare($query);
+                                                $stmt->execute([$counselor_id]);
+                                                $appointments = $stmt->fetchAll(PDO::FETCH_ASSOC);
+                                            if (count($appointments) > 0) {
+                                                    $num = 1;
+                                                    foreach ($appointments as $row) {
+                                                        $dateTime = new DateTime($row['appointment_date']);
+                                                        $date = $dateTime->format('Y-m-d');
+                                                        $time = $dateTime->format('H:i');
+                                                        $studentName = $row['student_name'] ?? 'TBD';
+                                                        // handle status column name variants
+                                                        $status = $row['status'] ?? ($row['appointment_status'] ?? 'Unknown');
                                         ?>
-                                            <tr>
-                                                <td><?php echo ($row['id']) ?></td>
-                                                <td><?php echo ucfirst($row['dfname']) ?></td>
-                                                <td><?php echo ($row['ddate']) ?></td>
-                                                <td><?php echo ($row['dtime']) ?></td>
-                                                <td><?php echo ($row['dstatus']) ?></td>
+                                           <tr>
+                                                 <td><?php echo $num++; ?></td>
+                                                <td><?php echo htmlspecialchars($studentName); ?></td>
+                                                <td><?php echo htmlspecialchars($date); ?></td>
+                                                <td><?php echo htmlspecialchars($time); ?></td>
+                                                <td><?php echo htmlspecialchars($status); ?></td>
                                                 <td>
-                                                    <form method='POST' action="appt_status.php" style='display:inline-block;'>
+                                                    <form method='POST' action="update_appt.php" style='display:inline-block;'>
                                                         <input type='hidden' name='id' value='<?php echo ($row['id']) ?>'/>
                                                         <button type='submit' name='complete' class='btn btn-success btn-sm'>Complete</button>
                                                     </form>
-                                                    <form method='POST' action="appt_status.php" style='display:inline-block;'>
+                                                    
+                                                    <form method='POST' action="update_appt.php" style='display:inline-block;'>
+                                                        <input type='hidden' name='id' value='<?php echo ($row['id']) ?>'/>
+                                                        <button type='submit' name='confirm' class='btn btn-primary btn-sm'>Confirm</button>
+                                                    </form> 
+                                                </td>
+                                                <td>
+
+                                                    <form method='POST' action="update_appt.php" style='display:inline-block;'>
                                                         <input type='hidden' name='id' value='<?php echo ($row['id']) ?>'/>
                                                         <button type='submit' name='cancel' class='btn btn-danger btn-sm'>Cancel</button>
                                                     </form> 
-                                                    </td>
-                                                    <td>
-                                                    <a href="appmtDelete.php?action=delete&id=<?php echo $row['id']; ?>&table=studentappointment" class="btn btn-danger btn-sm">Delete</a>
+                                                    <a href="appmtDelete.php?action=delete&id=<?php echo $row['id']; ?>&table=appointment" class="btn btn-dark btn-sm">Delete</a>
                                                 </td>
                                             </tr>
-                                        <?php 
-                                                } 
+                                       <?php 
+                                           }
+                                                } else {
+                                                    echo "<tr><td colspan='6' class='text-center'>No appointments found.</td></tr>";
+                                                }
                                             } else {
-                                                echo "<tr><td colspan='7'>No appointments found.</td></tr>";
+                                                echo "<tr><td colspan='6' class='text-center'>Counselor's record not found.</td></tr>";
                                             }
-                                        } else {
-                                            echo "Error: " . formQuery()->error;
                                         }
                                         ?>
-                                    </tbody>
                                 </table>
                             </div>
                         </div>

@@ -20,10 +20,10 @@ include('./inc/navbar.php');
         <?php include('./inc/topbar.php'); ?>
 
         <?php
-        $sql = formQuery("SELECT * FROM student WHERE userid='$userid'");
-        if ($sql->num_rows > 0) {
-            $row = $sql->fetch_assoc();
-        }
+        $query= "SELECT * FROM student WHERE userid = ? LIMIT 1";
+        $stmt = $conn->prepare($query);
+        $stmt->execute([$userid]);
+       $row = $stmt->fetch(PDO::FETCH_ASSOC);
         ?>
 
         <!-- Begin Page Content -->

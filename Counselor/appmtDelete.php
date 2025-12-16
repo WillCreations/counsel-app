@@ -8,15 +8,20 @@ if (isset($_GET['action']) && $_GET['action'] == 'delete' && isset($_GET['id']) 
     $allowedTables = ['appointment', 'studentappointment'];
 
     if (in_array($table, $allowedTables)) {
-        $deleteResult = formQuery("DELETE FROM $table WHERE id='$Id'");
-        if ($deleteResult) {
-            if ($table == 'appointment') {
-                header("Location: schedule.php");
-            } elseif ($table == 'studentappointment') {
-                header("Location: history.php");
-            }
-        } else {
-            echo "Error deleting record: " . mysqli_error($deleteResult);
+        try{
+        $deleteResult = $conn->prepare("DELETE FROM $table WHERE id = ?");
+        $result = $deleteResult->execute([$Id]);
+            if ($result) {
+                if ($table == 'appointment') {
+                    header("Location: schedule.php");
+                } elseif ($table == 'studentappointment') {
+                    header("Location: history.php");
+                }
+            } else {
+                echo "Error deleting record.";
+            }                               
+        } catch (PDOException $e) {
+            echo "Error deleting record: " . $e->getMessage();
         }
     } else {
         echo "Invalid table specified.";

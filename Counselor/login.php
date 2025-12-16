@@ -6,6 +6,10 @@ if(isset($_SESSION['loggedin'])){
     header("location:counselor.php");
 }
 
+
+ if(isset($_POST['submit'])){
+            require 'admin_process.php'; 
+        }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -65,10 +69,14 @@ if(isset($_SESSION['loggedin'])){
             <?php unset($_SESSION['msg']) ?>
 
             <div class="text-center mt-3">
+                <button type="submit" name="submit" class="btn btn-primary">Save</button>
+                <a href="signup.php" class="text-info">Sign up as a Counselor</a>
+            </div>
+            <div class="text-center mt-3">
                 <a href="../index.php" class="text-info"><i class="fa fa-home"></i> Back to Home</a>
             </div>
 
-        </div>
+    </div>
                 </div>
             </div>
         </div>

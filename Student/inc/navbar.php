@@ -3,10 +3,11 @@
 
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center text-warning justify-content-center" href="student.php">
-        <div class="sidebar-brand-icon rotate-n-15">
-            <i class="fas fa-laugh-wink"></i>
+        <div class="sidebar-brand-icon rotate-n-0">
+            <img src="/Career-guidance-project/images/counsellogo.png" hieght="40px" width="40px" alt="logo"/>
+            <!--<i class="fas fa-laugh-wink"></i>-->
         </div>
-        <div class="sidebar-brand-text mx-3">Student's Page</div>
+        <div class="sidebar-brand-text mx-3">Counsel</div>
     </a>
 
     <!-- Divider -->

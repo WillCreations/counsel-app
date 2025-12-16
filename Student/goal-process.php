@@ -19,7 +19,13 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['submit'])) {
     } elseif (!is_numeric($progress) || $progress < 0 || $progress > 100) {
         echo "Progress must be a number between 0 and 100.";
     } else {
-        $sql = formQuery("INSERT INTO goals SET dgoal='$goal', startDate='$start_date', endDate='$end_date', dprogress='$progress', userid='$userid'");
+
+        $stmt = $conn->prepare('SELECT id FROM student WHERE userid = ? LIMIT 1');
+        $stmt->execute([$userid]);
+        $studentid = $stmt->fetch(PDO::FETCH_ASSOC)['id'];
+        $query = "INSERT INTO goals (goal_title, start_date, end_date, progress, student_id) VALUES (?, ?, ?, ?, ?)";
+        $stmt = $conn->prepare($query);
+        $sql = $stmt->execute([$goal, $start_date, $end_date, $progress, $studentid]);
         if ($sql) {
             echo "Goal added successfully!";
             header("Location: monitor_goals.php");

@@ -182,7 +182,7 @@
 <div class="container mt-5" style="width: 600px;">
 
     <form action="register_process.php" method="post" class="mt-5" enctype="multipart/form-data">
-        <div class="profile-pic">
+        <div class="profile-pic flex justify-center items-center">
             <img src="placeholder.jpg" id="profileImage" alt="Profile Picture">
             <label for="profilePicInput" class="camera-icon">
                 <i class="fa fa-camera"></i>
@@ -224,18 +224,18 @@
             <div class="col-md-4">
                 <select name="month" class="form-control">
                     <option value="">Month</option>
-                    <option value="Jan">Jan</option>
-                    <option value="Feb">Feb</option>
-                    <option value="Mar">Mar</option>
-                    <option value="Apr">Apr</option>
-                    <option value="May">May</option>
-                    <option value="Jun">Jun</option>
-                    <option value="Jul">Jul</option>
-                    <option value="Aug">Aug</option>
-                    <option value="Sep">Sep</option>
-                    <option value="Oct">Oct</option>
-                    <option value="Nov">Nov</option>
-                    <option value="Dec">Dec</option>
+                    <option value="01">Jan</option>
+                    <option value="02">Feb</option>
+                    <option value="03">Mar</option>
+                    <option value="04">Apr</option>
+                    <option value="05">May</option>
+                    <option value="06">Jun</option>
+                    <option value="07">Jul</option>
+                    <option value="08">Aug</option>
+                    <option value="09">Sep</option>
+                    <option value="10">Oct</option>
+                    <option value="11">Nov</option>
+                    <option value="12">Dec</option>
                 </select>
             </div>
 
@@ -273,19 +273,6 @@
         <div class="form-group">
             <input type="password" name="cpass" placeholder="Confirm Password" class="form-control">
             <span class="text-danger"><?php echo isset($errCpass) ? $errCpass : null; ?></span>
-        </div>
-
-        <h5 class="bg-dark text-white">Academic Performance</h5>
-        <div class="form-group">
-            <input type="text" name="grade" placeholder="Grade" class="form-control">
-        </div>
-
-        <div class="form-group">
-            <input type="text" name="subject" placeholder="Subject" class="form-control">
-        </div>
-
-        <div class="form-group">
-            <input type="text" name="score" placeholder="Score" class="form-control">
         </div>
 
         <div class="form-group">

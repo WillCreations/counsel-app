@@ -14,7 +14,7 @@
         <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..."
             aria-label="Search" aria-describedby="basic-addon2">
         <div class="input-group-append">
-            <button class="btn btn-primary" type="button">
+            <button  type="submit" name="search" class="btn btn-primary" type="button">
                 <i class="fas fa-search fa-sm"></i>
             </button>
         </div>
@@ -35,9 +35,12 @@
 
     <?php
         $userid =$_SESSION['userid'];   
-            $sql = formQuery("SELECT * FROM student WHERE userid='$userid'");
-                $row = $sql->fetch_assoc(); // Fetch the row
-                    if ($row) {
+            $query = "SELECT * FROM student WHERE userid= ? LIMIT 1";
+            $stmt = $conn->prepare($query);
+            $stmt->execute([$userid]);
+            $row = $stmt->fetch(PDO::FETCH_ASSOC); // Fetch the row
+    
+    if ($row) {
 
     ?>
     

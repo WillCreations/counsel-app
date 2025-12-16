@@ -7,18 +7,21 @@ require '../config/config.php';
 if ($_SERVER['REQUEST_METHOD']=='POST'){
  
     $user = clean($_POST['user']);
-    $pass = md5(clean($_POST['pass']));
+    $passInput = clean($_POST['pass']);
 
     //run sql
-    $sql = formQuery("SELECT * FROM student WHERE (demail='$user' OR duname='$user') AND dpass='$pass' "); 
+   $stmt = $conn->prepare('SELECT id, userid, dpass, demail FROM student WHERE demail = ? OR duname = ? LIMIT 1');
+    $stmt->execute([$user, $user]);
+    $userRow = $stmt->fetch(PDO::FETCH_ASSOC);
 
-    if($sql->num_rows>0){
+    if($userRow && password_verify($passInput, $userRow['dpass'])){
 
-        $row = $sql->fetch_assoc();
-        $_SESSION['loggedin']=true;
-        $_SESSION['email']= $row['demail'];
-        $_SESSION['userid']= $row['userid'];
-        header("Location:student.php");
+        session_regenerate_id(true);
+        $_SESSION['loggedin'] = true;
+        $_SESSION['email'] = $userRow['demail'];
+        $_SESSION['userid'] = $userRow['userid'];
+        header('Location: student.php');
+        exit;
 
 
 
@@ -29,7 +32,8 @@ if ($_SERVER['REQUEST_METHOD']=='POST'){
         <strong>Fail!</strong><br>
         <p>Invalid login details, try again later!</p>
          </div>';
-         header('location:../index.php');
+         header('Location: ../index.php');
+        exit;
     }
 
 }

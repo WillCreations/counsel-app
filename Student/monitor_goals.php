@@ -25,6 +25,7 @@ include('./inc/navbar.php');
             <!-- Page Heading -->
             <div class="d-sm-flex align-items-center justify-content-between mb-4">
                 <h1 class="h3 mb-0 text-gray-800">Set academic and career goals</h1>
+                <a href="track_progress.php"> <button class="btn-primary rounded px-3 py-1" >Back</button></a> 
             </div>
 
             <!-- Content Row -->
@@ -82,32 +83,52 @@ include('./inc/navbar.php');
                                     </thead>
                                     <tbody>
                                     <?php
+                                    $modalid = 1;
                                         $userid = $_SESSION['userid'];
-                                        $sql = formQuery("SELECT * FROM goals WHERE userid='$userid' ORDER BY id DESC");
-                                        if($sql->num_rows > 0) { 
-                                            while($row = $sql->fetch_assoc()) {
+
+                                        if($userid){
+
+                                        $query = "SELECT id FROM student WHERE userid= ? LIMIT 1";
+                                        $stmt = $conn->prepare($query);
+                                        $stmt->execute([$userid]);
+                                        $srow = $stmt->fetch(PDO::FETCH_ASSOC);
+                                        $query = "SELECT * FROM goals WHERE student_id = ? ORDER BY id DESC";
+                                        $stmt = $conn->prepare($query);
+                                        $stmt->execute([$srow['id']]);
+                                        $goals = $stmt->fetchAll(PDO::FETCH_ASSOC);
+                                        if(count($goals) > 0) { 
+                                            foreach($goals as $row) {
                                     ?>
                                         <tr>
-                                            <td><?php echo ucfirst($row['dgoal']) ?></td>
-                                            <td><?php echo ($row['startDate']) ?></td>
-                                            <td><?php echo ($row['endDate']) ?></td>
+                                            <td><?php echo htmlspecialchars($row['goal_title']); ?></td>
+                                            <td><?php echo htmlspecialchars($row['start_date']); ?></td>
+                                            <td><?php echo htmlspecialchars($row['end_date']); ?></td>
                                             <td>
                                                 <div class="progress">
                                                     <div class="progress-bar" role="progressbar" 
-                                                    style="width: <?php echo ($row['dprogress']) ?>%;" 
-                                                    aria-valuenow="<?php echo ($row['dprogress']) ?>" 
+                                                    style="width: <?php echo htmlspecialchars($row['progress']); ?>%;" 
+                                                    aria-valuenow="<?php echo htmlspecialchars($row['progress']); ?>" 
                                                     aria-valuemin="0" aria-valuemax="100">
-                                                    <?php echo ($row['dprogress']) ?>%</div>
+                                                    <?php echo htmlspecialchars($row['progress']); ?>%</div>
                                                 </div>
                                             </td>
                                             <td>
-                                                <button class="btn btn-sm btn-primary">Update</button>
-                                                <a href="delete_goal.php?action=delete&id=<?php echo $row['id']; ?>" class="btn btn-danger btn-sm">Delete</a>
+                                                <button type="button" 
+                                                    class="btn btn-primary  my-1 editGoalBtn" 
+                                                    data-toggle="modal" data-target="#editProfileModal"
+                                                    data-id="<?php echo $row['id']; ?>"
+                                                    data-title="<?php echo htmlspecialchars($row['goal_title'], ENT_QUOTES); ?>"
+                                                    data-start="<?php echo htmlspecialchars($row['start_date'], ENT_QUOTES); ?>"
+                                                    data-end="<?php echo htmlspecialchars($row['end_date'], ENT_QUOTES); ?>"
+                                                    data-progress="<?php echo htmlspecialchars($row['progress'], ENT_QUOTES); ?>"
+                                                    data-status="<?php echo htmlspecialchars($row['goal_status'] ?? 'Not Started', ENT_QUOTES); ?>"
+                                                >Update</button>
+                                                <a href="delete_goal.php?action=delete&id=<?php echo $row['id']; ?>" class="btn btn-danger my-1 btn-sm">Delete</a>
                                             </td>
                                         </tr>
                                     <?php 
                                             } 
-                                        } 
+                                        } }
                                     ?>
                                     </tbody>
                                 </table>
@@ -119,6 +140,80 @@ include('./inc/navbar.php');
             </div>
 
             <!-- Content Row -->
+                                    </div>
+              <!-- Modal -->
+    <div class="modal fade" id="editProfileModal" tabindex="-1" role="dialog" aria-labelledby="editProfileModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editProfileModalLabel">Update Goal</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="editProfileForm" method="POST" action="update_goal.php">
+                        <input type="hidden" id="goal_id" name="id" value="">
+
+                        <div class="form-group">
+                            <label for="goal_title">Goal</label>
+                            <input type="text" class="form-control" id="goal_title_input" name="goal_title" value="">
+                        </div>
+                        <div class="form-group">
+                            <label for="start_date">Start Date</label>
+                            <input type="date" class="form-control" id="start_date_input" name="start_date" value="">
+                        </div>
+                        <div class="form-group">
+                            <label for="end_date">End Date</label>
+                            <input type="date" class="form-control" id="end_date_input" name="end_date" value="">
+                        </div>
+                        <div class="form-group">
+                            <label for="goal_status">Status</label>
+                            <select class="form-control" id="goal_status_input" name="goal_status">
+                                <option value="Not Started">Not Started</option>
+                                <option value="In Progress">In Progress</option>
+                                <option value="Completed">Completed</option>
+                                <option value="Cancelled">Cancelled</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="progress">Progress</label>
+                            <input type="number" min="0" max="100" class="form-control" id="progress_input" name="progress" value="">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary" form="editProfileForm" id="updateBtn">Update</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Populate modal fields when Edit/Update button is clicked
+        document.addEventListener('DOMContentLoaded', function () {
+            const editButtons = document.querySelectorAll('.editGoalBtn');
+            editButtons.forEach(btn => {
+                btn.addEventListener('click', function () {
+                    const id = this.getAttribute('data-id');
+                    const title = this.getAttribute('data-title') || '';
+                    const start = this.getAttribute('data-start') || '';
+                    const end = this.getAttribute('data-end') || '';
+                    const progress = this.getAttribute('data-progress') || '';
+                    const status = this.getAttribute('data-status') || 'Not Started';
+
+                    document.getElementById('goal_id').value = id;
+                    document.getElementById('goal_title_input').value = title;
+                    document.getElementById('start_date_input').value = start;
+                    document.getElementById('end_date_input').value = end;
+                    document.getElementById('progress_input').value = progress;
+                    document.getElementById('goal_status_input').value = status;
+                });
+            });
+        });
+    </script>
+</div>
             
         </div>
         <!-- /.container-fluid -->
