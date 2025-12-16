@@ -1,9 +1,20 @@
 {
   "version": 2,
-  "builds": [
-    { "src": "index.php", "use": "@vercel/php" }
-  ],
+    "functions": {
+    "*.php": {
+      "runtime": "vercel-php@0.6.0"
+    }
+  },
+
   "routes": [
+    { "src": "/Counselor/(.*)", "dest": "/Counselor/$1" },
+    { "src": "/Student/(.*)", "dest": "/Student/$1" },
+    { "src": "/images/(.*)", "dest": "/images/$1" },
+    { "src": "/uploads/(.*)", "dest": "/uploads/$1" },
+    { "src": "/stu_uploads/(.*)", "dest": "/stu_uploads/$1" },
+    { "src": "/photos/(.*)", "dest": "/photos/$1" },
+    { "src": "/bootstrap4/(.*)", "dest": "/bootstrap4/$1" },
+    { "src": "/sweetalert-master/(.*)", "dest": "/sweetalert-master/$1" },
     { "src": "/(.*)", "dest": "/index.php" }
   ]
 }
