@@ -49,13 +49,14 @@ function loadEnv($path)
     }
 }
 loadEnv(__DIR__ . '/../.env');
-
-$db_host = getenv('DB_HOST') ?: 'localhost';
+$db_type = getenv('DB_TYPE') ?: 'mysql';
+$db_host = getenv('DB_HOST') ?: 'sql100.ezyro.com';
 $db_port = getenv('DB_PORT') ?: '3306';
-$db_name = getenv('DB_NAME') ?: '';
-$user = getenv('DB_USER') ?: '';
-$pass = getenv('DB_PASS') ?: '';
-$dsn = "mysql:host=$db_host;port=$db_port;dbname=$db_name";
+$db_name = getenv('DB_NAME') ?: 'ezyro_40734137_counselapp_db';
+$user = getenv('DB_USER') ?: 'ezyro_40734137';
+$pass = getenv('DB_PASS') ?: 'hb3vrfw0';
+
+$dsn = "$db_type:host=$db_host;port=$db_port;dbname=$db_name";
 
 try {
     $conn = new PDO($dsn, $user, $pass);
